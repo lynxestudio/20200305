@@ -1,7 +1,7 @@
 # Operaciones Bitwise (a nivel de bits) con C#
-
+<p align="justify">
 Además de los operadores condicionales lógicos y de relación C# cuenta con operadores a nivel de bits (bitwise operators o logical operators) que permiten realizar operaciones con las representaciones binarias de las variables que internamente utiliza la computadora, esto es útil en ciertos casos donde se requiere interactuar directamente con el hardware o utilizar una variable entera como un arreglo de bits donde por ejemplo un tipo short representaría un arreglo de bits con una longitud de 16 valores y cada bit podría ser utilizado como si fuera un valor booleano 1 igual true y 0 igual a false.
-
+</p>
 Los tipos de datos donde usualmente aplican estos operadores son: los numéricos y las enumeraciones.
 
 La siguiente tabla muestra los tipos numéricos, su longitud en bytes y su valor en decimal.
