@@ -37,5 +37,7 @@ Para ejecutar el programa de ejemplo, descargar el proyecto desde este enlace.
 
 Al ejecutarlo veremos los siguientes resultados:
 
-
-  Descarga el proyecto.
+<img src="bitwise/bitwise0.png" /></a></div><br />
+<img src="bitwise/bitwise1.png" /></a></div><br />
+<img src="bitwise/bitwise2.png" /></a></div><br />
+<img src="bitwise/bitwise3.png" /></a></div><br />
