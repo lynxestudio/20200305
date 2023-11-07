@@ -1,43 +1,45 @@
 # Operaciones Bitwise (a nivel de bits) con C#
-<p align="justify">
-AdemÃ¡s de los operadores condicionales lÃ³gicos y de relaciÃ³n C# cuenta con operadores a nivel de bits (bitwise operators o logical operators) que permiten realizar operaciones con las representaciones binarias de las variables que internamente utiliza la computadora, esto es Ãºtil en ciertos casos donde se requiere interactuar directamente con el hardware o utilizar una variable entera como un arreglo de bits donde por ejemplo un tipo short representarÃ­a un arreglo de bits con una longitud de 16 valores y cada bit podrÃ­a ser utilizado como si fuera un valor booleano 1 igual true y 0 igual a false.
-</p>
-Los tipos de datos donde usualmente aplican estos operadores son: los numÃ©ricos y las enumeraciones.
 
-La siguiente tabla muestra los tipos numÃ©ricos, su longitud en bytes y su valor en decimal.
-
-
-
-AsÃ­ por ejemplo si tenemos valores decimales representados en variables byte (8 bits hasta 255 en decimal)
-
-byte a = 22;
-byte b = 33;
-
-Internamente su representaciÃ³n en binario es:
-
-22 = 00010110
-33 = 00100001
-
-si utilizamos variables de tipo short (16 bits hasta 65,535)
-
-short c = 666;
-short d = 6666;
-
-su representaciÃ³n en binario es:
-
-666 = 00000010 10011010
-6666 = 00011010 00001010
-
-AsÃ­ con cada tipo numÃ©rico siempre agrupando las cadenas de bits de 8 en 8.
-La siguiente tabla muestra los operadores bitwise, su significado y su resultado.
-
-
-
-Para ejecutar el programa de ejemplo, descargar el proyecto desde este enlace.
-
-Al ejecutarlo veremos los siguientes resultados:
-
-<img src="bitwise/bitwise0.png" /></a></div><br />
-<img src="bitwise/bitwise1.png" /></a></div><br />
-<img src="bitwise/bitwise2.png" /></a></div><br />
-<img src="bitwise/bitwise3.png" /></a></div><br />
+<p align="justify">Además de los operadores condicionales lógicos y de relación C# cuenta con operadores a nivel de bits (bitwise operators o logical operators) que permiten realizar operaciones con las representaciones binarias de las variables que internamente utiliza la computadora, esto es útil en ciertos casos donde se requiere interactuar directamente con el hardware o utilizar  una variable entera como un arreglo de bits donde por ejemplo un tipo short representaría un arreglo de bits con una longitud de 16 valores y cada bit podría ser utilizado como si fuera un valor booleano 1 igual true y 0 igual a false.
+    </p>
+    <p align="justify">
+    Los tipos de datos donde usualmente aplican estos operadores son: los numéricos y las enumeraciones.
+    </p>
+    <p align="justify">
+    La siguiente tabla muestra los tipos numéricos, su longitud en bytes y su valor en decimal.</p>
+    <div>
+        <img src="picture_library/bitwise/tabla1.png" />
+</div><br />
+    <p align="justify">
+        Así por ejemplo si tenemos valores decimales representados en variables byte  (8 bits hasta 255 en decimal)
+        <br /><br />byte a = 22;
+        <br />byte b = 33;
+        <br /><br />
+        Internamente su representación en binario es:
+        <br /><br />22 = 00010110
+        <br />33 = 00100001<br /><br />
+        si utilizamos variables de tipo short (16 bits hasta 65,535) <br /><br />
+        short c = 666;<br />
+        short d = 6666;<br /><br />
+        su representación en binario es:<br />
+        <br />666  = 00000010 10011010 <br />
+        6666 = 00011010 00001010<br /><br />
+        Así con cada tipo numérico siempre agrupando las cadenas de bits de 8 en 8.<br />La siguiente tabla muestra los operadores bitwise, su significado y su resultado.<br />
+    </p>
+    <div>
+        <img src="picture_library/bitwise/tabla2.png" />
+</div>
+<br />
+    <div>Al ejecutarlo veremos los siguientes resultados:</div><br />
+<div>
+		    <img src="picture_library/bitwise/bitwise0.png" />
+</div><br />
+    <div>
+<img src="picture_library/bitwise/bitwise1.png" />
+</div><br />
+    <div>
+<img src="picture_library/bitwise/bitwise2.png" />
+</div><br />
+    <div>
+<img src="picture_library/bitwise/bitwise3.png" />
+</div><br />
