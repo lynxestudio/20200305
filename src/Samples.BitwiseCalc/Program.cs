@@ -23,6 +23,8 @@ namespace Samples.BitwiseCalc
                     Utilities.ShowMenu("BITWISE OPERATIONS", options);
                     soption = Utilities.Scanf("Please enter your choice: ");
                     Int32.TryParse(soption,out option);
+                    if(soption.Equals("0"))
+                    	System.Environment.Exit(0);
                     Utilities.PrintMessage("You choose " + options[option - 1]);
                     switch (soption)
                     {
