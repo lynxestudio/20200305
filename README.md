@@ -8,7 +8,7 @@
     <p align="justify">
     La siguiente tabla muestra los tipos numéricos, su longitud en bytes y su valor en decimal.</p>
     <div>
-        <img src="picture_library/bitwise/tabla1.png" />
+        <img src="images/tabla1.png" />
 </div><br />
     <p align="justify">
         Así por ejemplo si tenemos valores decimales representados en variables byte  (8 bits hasta 255 en decimal)
@@ -19,27 +19,27 @@
         <br /><br />22 = 00010110
         <br />33 = 00100001<br /><br />
         si utilizamos variables de tipo short (16 bits hasta 65,535) <br /><br />
-        short c = 666;<br />
-        short d = 6666;<br /><br />
+        short c = 54;<br />
+        short d = 22;<br /><br />
         su representación en binario es:<br />
-        <br />666  = 00000010 10011010 <br />
-        6666 = 00011010 00001010<br /><br />
+        <br />54  = 110110<br />
+        22 = 10110<br /><br />
         Así con cada tipo numérico siempre agrupando las cadenas de bits de 8 en 8.<br />La siguiente tabla muestra los operadores bitwise, su significado y su resultado.<br />
     </p>
     <div>
-        <img src="picture_library/bitwise/tabla2.png" />
+        <img src="images/tabla2.png" />
 </div>
 <br />
     <div>Al ejecutarlo veremos los siguientes resultados:</div><br />
 <div>
-		    <img src="picture_library/bitwise/bitwise0.png" />
+		    <img src="images/bitwise0.png" />
 </div><br />
     <div>
-<img src="picture_library/bitwise/bitwise1.png" />
+<img src="images/bitwise1.png" />
 </div><br />
     <div>
-<img src="picture_library/bitwise/bitwise2.png" />
+<img src="images/bitwise2.png" />
 </div><br />
     <div>
-<img src="picture_library/bitwise/bitwise3.png" />
+<img src="images/bitwise3.png" />
 </div><br />
