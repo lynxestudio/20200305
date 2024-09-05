@@ -32,14 +32,14 @@
 <br />
     <div>Al ejecutarlo veremos los siguientes resultados:</div><br />
 <div>
-		    <img src="images/bitwise0.png" />
+		    <img src="images/fig1.png" />
 </div><br />
     <div>
-<img src="images/bitwise1.png" />
+<img src="images/fig2.png" />
 </div><br />
     <div>
-<img src="images/bitwise2.png" />
+<img src="images/fig3.png" />
 </div><br />
     <div>
-<img src="images/bitwise3.png" />
+<img src="images/fig4.png" />
 </div><br />
